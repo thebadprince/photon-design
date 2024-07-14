@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Karrik Regular';
+    src: url(assets/fonts/Karrik-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Karrik Italic';
+    src: url(assets/fonts/Karrik-Italic.woff2);
+}
+
+@font-face {
+    font-family: 'Terminal Grotesque';
+    src: url(assets/fonts/terminal-grotesque.ttf);
+}
+
+body {
+    font-family: 'Karrik Regular', sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+
+    background-color: #D6F49D;
+    background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+
+    color: #222;
+
+    height: 100vh;
+
+    transition: background-color 0.5s;
+}
+
+h1 {
+    font-size: 4vmax;
+    font-family: 'Terminal Grotesque', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1;
+    margin: 16px 0;
+    /* position: fixed; */
+}
+
+h2 {
+    font-size: 8vmin;
+}
+
+section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+}
+
+section div.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #FB5607;
+    border-radius: 100%;
+    display: inline-block;
+
+    transition: background-color 0.5s;
+}
+
+footer {
+    position: fixed;
+    bottom: 1;
+    left: 1;
+    width: 100%;
+    padding: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin: 0 24px;
+}
