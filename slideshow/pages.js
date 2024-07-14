@@ -12,7 +12,7 @@ const pages = [
         circle: "#8338EC"
     },
     {
-        copy: "...lets patients choose their own pharmacy, select pick up time, and get status updates",
+        copy: "...lets patients choose their pharmacy, select pick up time, and get realtime updates",
         background: "#D6BBC0",
         circle: "#3066BE"
     },
